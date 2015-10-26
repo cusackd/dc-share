@@ -16,7 +16,7 @@ function dc_share() {
 			<h3>Make a differance and spread the news</h3>
 			<div class="facebook"><a class="crime-share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=<?php the_permalink() ?>" target="_blank">Share on Facebook</a></div>
 			<div class="twitter"><a class="crime-share-twitter" href="https://twitter.com/home?status=<?php echo "Have you seen missing person " . get_post_meta( get_the_ID(), 'crime_missing_name', true ) ?> <?php the_permalink() ?>"  target="_blank">Share on Twitter</a></div>
-			<div class="whatsapp"><a href="whatsapp://send?text=http://webdevelopmentscripts.com">Share on whatsapp</a></div>
+			<div class="whatsapp"><a href="whatsapp://send?text=<?php echo the_permalink() ?>">Share on whatsapp</a></div>
 		</div>
 
 	<?php
