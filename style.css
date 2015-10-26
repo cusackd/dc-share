@@ -1,0 +1,9 @@
+.dc-share div {  width: 100%; text-align: center; color: white; font-weight: bold; font-size: 20px; margin-bottom: 1px; display: inline-block;}
+.dc-share a:hover { color: white; }
+.dc-share a:visited, { color: white; }
+.dc-share a:focus, { color: white; }
+.dc-share a:active { color: white; }
+.dc-share a { color: white; width: 100%; display: inline-block;}
+.dc-share .facebook { background-color: #3b5998; }
+.dc-share .twitter { background-color: #55acee; }
+.dc-share .whatsapp { background-color: #43d854; }
